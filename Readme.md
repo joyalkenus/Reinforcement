@@ -2,17 +2,10 @@
 
 My implementation of a Deep Q-Network (DQN) to solve the Lunar Lander environment from OpenAI Gymnasium. The agent learns to control a lunar lander and safely land it on the moon's surface.
 
-## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Implementation Details](#implementation-details)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
+## Overview
 
-## Project Overview
-
-The Lunar Lander environment is a classic reinforcement learning problem where an agent must learn to land a spacecraft safely on a lunar surface. This project uses a Deep Q-Network (DQN) algorithm, which combines Q-learning with deep neural networks, to train an agent to perform this task.
+The Lunar Lander environment is a classic reinforcement learning problem where an agent must learn to land a spacecraft safely on a lunar surface. I used openai gynasium provided lunar lander environment for this project. This project uses a Deep Q-Network (DQN) algorithm, which combines Q-learning with deep neural networks, to train an agent to perform this task.
 
 ## Implementation Details
 
@@ -69,7 +62,7 @@ To run this project, you need Python 3.7 or higher. Follow these steps to set up
 
 The DQN agent successfully learned to land the lunar module after 812 episodes of training. Key observations:
 
-- **Learning Progress**: The agent showed steady improvement in its landing abilities over the course of training.
+- **Learning Progress**: The agent showed steady improvement in its landing abilities over the course of training with some fluctuations during 400 to 500 episodes.
 - **Final Performance**: By the end of training, the agent consistently achieved successful landings with high scores.
 - **Stability**: The 3-layer network with 64 neurons per layer provided a good balance between learning capacity and training stability.
 
