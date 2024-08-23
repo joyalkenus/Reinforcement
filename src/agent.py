@@ -6,7 +6,7 @@ import torch.optim as optim
 from collections import namedtuple, deque
 
 # Define the device to use for PyTorch computations
-# "mps" is used for Apple's Metal Performance Shaders (MPS) on M1 chips
+
 device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
 
 # Hyperparameters
